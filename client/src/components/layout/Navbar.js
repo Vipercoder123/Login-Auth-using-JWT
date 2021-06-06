@@ -25,10 +25,10 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
   const guestLinks = (
     <ul>
       <li>
-        <Link to='/register'>Register</Link>
+        {/* <Link to='/register'>Register</Link> */}
       </li>
       <li>
-        <Link to='/login'>Login</Link>
+        {/* <Link to='/login'>Login</Link> */}
       </li>
     </ul>
   );
@@ -37,7 +37,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className='navbar'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code' /> Company Name
+          <i className='fas fa-code' /> Bugs Bunny
         </Link>
       </h1>
       {!loading && (

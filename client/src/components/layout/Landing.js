@@ -12,9 +12,11 @@ const Landing = ({ isAuthenticated }) => {
     <section className='landing'>
       
       <div className='landing-main'>
-        <h4 class='logo'>Company Name</h4>
+        <h4 class='logo'>
+          {/* Company Name */}
+        </h4>
         <div className='lead leadp'>
-          Caption
+          {/* Caption */}
         </div>
 
         <div className='buttons'>
@@ -24,7 +26,7 @@ const Landing = ({ isAuthenticated }) => {
         
       </div>
       <div class="footer">
-        <h1>&copy;<a href = 'https://abhinavgor.netlify.app/'>Abhinav Gorantla</a> 2020.</h1>
+        <h1>&copy;<a href = 'https://abhinavgor.netlify.app/'>Bugs Bunny</a> 2020.</h1>
       </div>
   
     </section>

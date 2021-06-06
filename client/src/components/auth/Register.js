@@ -4,6 +4,9 @@ import { Link, Redirect } from 'react-router-dom';
 import { setAlert } from '../../actions/alert';
 import { register } from '../../actions/auth';
 import PropTypes from 'prop-types';
+import { url } from 'gravatar';
+import Background from "../../back2.png";
+// import "./Background.css";
 
 const Register = ({ setAlert, register, isAuthenticated }) => {
   const [formData, setFormData] = useState({
@@ -33,7 +36,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 
   return (
     <fragment>
-    <section className="loginSection">
+    <section className="loginSection full-bg-size bg-dim">
       <div className="login-form-group">
       <h1 className='loginText'>Sign Up</h1>
       <form className='loginForm' onSubmit={e => onSubmit(e)}>

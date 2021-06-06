@@ -335,8 +335,8 @@ button {
   flex-direction: row;
   position: relative;
   background-image:
-linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
-url('https://images.unsplash.com/photo-1530049478161-0780526964f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80');
+/* linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), */
+url("./back2.png");
 background-size: cover;
   /* background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)),  url('https://images.unsplash.com/photo-1530049478161-0780526964f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1080&q=80') no-repeat center center/cover; */
   height: 100vh;
